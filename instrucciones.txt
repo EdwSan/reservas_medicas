@@ -1,0 +1,22 @@
+Instrucciones para instalar:
+
+1. Descomprima el archivo "reservas_medicas.zip" en el root del servidor web 
+   (Ej:Apache -> www).
+2. Configurar ODBC en el servidor con un servicio denominado "proyecto", con usuario
+   y password "proyecto". 
+   Si desea cambiar el nombre del servicio, usuario y password puede configurarlo 
+   en el archivo "libreria.php"
+3. En el archivo de configuración de php "php.ini", verificar el estado 
+   de las siguientes opciones:
+	- extension=php_oci8.dll
+	- register_globals = On
+4. Crear un link desde otra Página Web a "reservas_medicas/htc_logon.php"
+   o desde un browser digite la direccion asi:
+
+	http://dominio.subdominio.../reservas_medicas/htc_logon.php
+
+	Ej:
+	
+	http://uniboyaca.edu.co/reservas_medicas/htc_logon.php
+
+

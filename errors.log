@@ -1,0 +1,92 @@
+(2004-08-31 11:44:50) odbc_oracle error: [IM002: [Microsoft][Administrador de controladores ODBC] No se encuentra el nombre del origen de datos y no se especificó ningún controlador predeterminado] in CONNECT(prod, '****', '****', )
+(2004-08-31 11:47:15) odbc_oracle error: [S0022: [Oracle][ODBC][Ora]ORA-00904: "CLAVE_INTERNET": invalid identifier
+] in EXECUTE("select * from v_datos_paciente 
+				where codigo='52' and clave_internet='v6114c36' and tipo='F'")
+(2004-08-31 11:47:36) odbc_oracle error: [S0022: [Oracle][ODBC][Ora]ORA-00904: "CLAVE_INTERNET": invalid identifier
+] in EXECUTE("select * from v_datos_paciente 
+				where codigo='52' and clave_internet='v6114c36' and tipo='F'")
+(2004-08-31 11:49:04) odbc_oracle error: [S0002: [Oracle][ODBC][Ora]ORA-00942: table or view does not exist
+] in EXECUTE("select * from v_dia_reserva where profesional_salud=6776261")
+(2004-08-31 11:50:15) odbc_oracle error: [S1000: [Oracle][ODBC][Ora]ORA-01031: insufficient privileges
+] in EXECUTE("UPDATE t_hcp_paciente SET clave_internet = '123456' WHERE (id ='2')")
+(2004-08-31 11:51:17) odbc_oracle error: [S1000: [Oracle][ODBC][Ora]ORA-01031: insufficient privileges
+] in EXECUTE("UPDATE t_hcp_paciente SET clave_internet = '123456' WHERE (id ='2')")
+(2004-08-31 11:53:01) odbc_oracle error: [S1000: [Oracle][ODBC][Ora]ORA-01031: insufficient privileges
+] in EXECUTE("UPDATE t_hcp_paciente SET clave_internet = '123456' WHERE (id ='2')")
+(2004-08-31 14:44:13) odbc_oracle error: [S0002: [Oracle][ODBC][Ora]ORA-00942: table or view does not exist
+] in EXECUTE("select * from v_dia_reserva where profesional_salud=6776261")
+(2004-08-31 14:46:58) odbc_oracle error: [S0002: [Oracle][ODBC][Ora]ORA-00942: table or view does not exist
+] in EXECUTE("select * from v_dia_reserva where profesional_salud=6776261")
+(2004-08-31 15:38:01) odbc_oracle error: [S0002: [Oracle][ODBC][Ora]ORA-00942: table or view does not exist
+] in EXECUTE("select * from v_dia_reserva where profesional_salud=51711044")
+(2004-09-01 10:55:10) odbc_oracle error: [S0002: [Oracle][ODBC][Ora]ORA-00942: table or view does not exist
+] in EXECUTE("select * from v_dia_reserva where profesional_salud=6776261")
+(2004-09-01 11:15:22) odbc_oracle error: [S0002: [Oracle][ODBC][Ora]ORA-00942: table or view does not exist
+] in EXECUTE("select * from v_dia_reserva where profesional_salud=6776261")
+(2004-09-01 11:17:49) odbc_oracle error: [S0002: [Oracle][ODBC][Ora]ORA-00942: table or view does not exist
+] in EXECUTE("select * from v_dia_reserva where profesional_salud=6776261")
+(2004-09-01 11:18:10) odbc_oracle error: [S0002: [Oracle][ODBC][Ora]ORA-00942: table or view does not exist
+] in EXECUTE("select * from v_dia_reserva where profesional_salud=6776261")
+(2004-09-01 11:18:53) odbc_oracle error: [S0002: [Oracle][ODBC][Ora]ORA-00942: table or view does not exist
+] in EXECUTE("select * from v_dia_reserva where profesional_salud=51711044")
+(2004-09-01 11:19:54) odbc_oracle error: [S0002: [Oracle][ODBC][Ora]ORA-00942: table or view does not exist
+] in EXECUTE("select * from v_dia_reserva where profesional_salud=6776261")
+(2004-09-01 11:29:17) odbc_oracle error: [S0002: [Oracle][ODBC][Ora]ORA-00942: table or view does not exist
+] in EXECUTE("select * from v_dia_reserva where profesional_salud=6776261")
+(2004-09-14 09:06:54) odbc_oracle error: [S1000: [Oracle][ODBC][Ora]ORA-12560: TNS:protocol adapter error
+] in CONNECT(Produccion, '****', '****', )
+(2004-09-14 09:07:17) odbc_oracle error: [S1000: [Oracle][ODBC][Ora]ORA-12560: TNS:protocol adapter error
+] in CONNECT(Produccion, '****', '****', )
+(2004-10-11 09:50:46) odbc_oracle error: [IM002: [Microsoft][Administrador de controladores ODBC] No se encuentra el nombre del origen de datos y no se especificó ningún controlador predeterminado] in CONNECT(Produccion, '****', '****', )
+(2004-10-11 09:52:45) odbc_oracle error: [IM002: [Microsoft][Administrador de controladores ODBC] No se encuentra el nombre del origen de datos y no se especificó ningún controlador predeterminado] in CONNECT(Produccion, '****', '****', )
+(2004-10-13 10:58:02) odbc_oracle error: [IM002: [Microsoft][Administrador de controladores ODBC] No se encuentra el nombre del origen de datos y no se especificó ningún controlador predeterminado] in CONNECT(sprd, '****', '****', )
+(2004-10-13 10:59:41) odbc_oracle error: [IM002: [Microsoft][Administrador de controladores ODBC] No se encuentra el nombre del origen de datos y no se especificó ningún controlador predeterminado] in CONNECT(sprd, '****', '****', )
+(2004-10-13 10:59:57) odbc_oracle error: [IM002: [Microsoft][Administrador de controladores ODBC] No se encuentra el nombre del origen de datos y no se especificó ningún controlador predeterminado] in CONNECT(sprd, '****', '****', )
+(2004-10-13 11:00:59) odbc_oracle error: [IM002: [Microsoft][Administrador de controladores ODBC] No se encuentra el nombre del origen de datos y no se especificó ningún controlador predeterminado] in CONNECT(prod, '****', '****', )
+(2004-10-13 11:01:35) odbc_oracle error: [IM002: [Microsoft][Administrador de controladores ODBC] No se encuentra el nombre del origen de datos y no se especificó ningún controlador predeterminado] in CONNECT(prod, '****', '****', )
+(2004-10-13 11:02:06) odbc_oracle error: [IM002: [Microsoft][Administrador de controladores ODBC] No se encuentra el nombre del origen de datos y no se especificó ningún controlador predeterminado] in CONNECT(prod, '****', '****', )
+(2004-10-13 11:02:32) odbc_oracle error: [IM002: [Microsoft][Administrador de controladores ODBC] No se encuentra el nombre del origen de datos y no se especificó ningún controlador predeterminado] in CONNECT(sprd, '****', '****', )
+(2004-10-13 11:02:43) odbc_oracle error: [IM002: [Microsoft][Administrador de controladores ODBC] No se encuentra el nombre del origen de datos y no se especificó ningún controlador predeterminado] in CONNECT(sprd, '****', '****', )
+(2004-10-13 11:05:35) odbc_oracle error: [IM002: [Microsoft][Administrador de controladores ODBC] No se encuentra el nombre del origen de datos y no se especificó ningún controlador predeterminado] in CONNECT(PROD, '****', '****', )
+(2004-10-14 08:59:49) odbc_oracle error: [IM002: [Microsoft][Administrador de controladores ODBC] No se encuentra el nombre del origen de datos y no se especificó ningún controlador predeterminado] in CONNECT(PROD, '****', '****', )
+(2004-10-23 10:23:33) odbc_oracle error: [IM002: [Microsoft][Administrador de controladores ODBC] No se encuentra el nombre del origen de datos y no se especificó ningún controlador predeterminado] in CONNECT(PRODUCCION, '****', '****', )
+(2004-10-23 10:28:41) odbc_oracle error: [IM002: [Microsoft][Administrador de controladores ODBC] No se encuentra el nombre del origen de datos y no se especificó ningún controlador predeterminado] in CONNECT(PRODUCCION, '****', '****', )
+(2004-10-23 10:45:32) odbc_oracle error: [IM002: [Microsoft][Administrador de controladores ODBC] No se encuentra el nombre del origen de datos y no se especificó ningún controlador predeterminado] in CONNECT(PRODUCCION, '****', '****', )
+(2004-10-23 11:12:13) mysql error: [1146: Table 'reservas.v_datos_paciente' doesn't exist] in EXECUTE("select * from v_datos_paciente 
+				where codigo='1' and clave='123456' and tipo='E'")
+(2004-10-23 11:12:47) mysql error: [1146: Table 'reservas.v_datos_paciente' doesn't exist] in EXECUTE("select * from v_datos_paciente 
+				where codigo='1' and clave='123456' and tipo='E'")
+(2004-10-23 11:16:13) mysql error: [1146: Table 'reservas.v_datos_paciente' doesn't exist] in EXECUTE("select * from v_datos_paciente 
+				where codigo='1' and clave='123456' and tipo='E'")
+(2004-10-23 11:16:29) mysql error: [1146: Table 'reservas.v_datos_paciente' doesn't exist] in EXECUTE("select * from v_datos_paciente 
+				where codigo='1' and clave='123456' and tipo='E'")
+(2004-10-23 11:17:39) mysql error: [1146: Table 'reservas.v_datos_paciente' doesn't exist] in EXECUTE("select * from v_datos_paciente 
+				where codigo='1' and clave='123456' and tipo='E'")
+(2004-10-23 11:19:35) mysql error: [1146: Table 'reservas.v_datos_paciente' doesn't exist] in EXECUTE("select * from v_datos_paciente 
+				where paciente='1'")
+(2004-10-23 11:19:42) mysql error: [1064: You have an error in your SQL syntax near '(tc.fecha,'YYYY-MM-DD HH24:MI:SS'), tp.nombre, te.nombre, decode(estado_turno,'A' at line 1] in EXECUTE("SELECT to_char(tc.fecha,'YYYY-MM-DD HH24:MI:SS'), tp.nombre, te.nombre, decode(estado_turno,'A','Asignado','S','Sin asignar','C','Cancelado','O','Asistio','Otro') estado
+				FROM t_hcp_calendario_turno tc, t_hcp_profesional_salud tp, t_hcp_especialidad te
+				WHERE ( (tc.profesional_salud = tp.identificacion) 
+						and (tp.especialidad = te.codigo) 
+						and (tc.paciente=1) 
+					) ORDER BY Fecha DESC")
+(2004-10-23 11:19:56) mysql error: [1146: Table 'reservas.v_datos_paciente' doesn't exist] in EXECUTE("select * from v_datos_paciente 
+				where paciente='1'")
+(2004-10-23 11:20:00) mysql error: [1064: You have an error in your SQL syntax near '(tc.fecha,'YYYY-MM-DD HH24:MI:SS'), tp.nombre, te.nombre, decode(estado_turno,'A' at line 1] in EXECUTE("SELECT to_char(tc.fecha,'YYYY-MM-DD HH24:MI:SS'), tp.nombre, te.nombre, decode(estado_turno,'A','Asignado','S','Sin asignar','C','Cancelado','O','Asistio','Otro') estado
+				FROM t_hcp_calendario_turno tc, t_hcp_profesional_salud tp, t_hcp_especialidad te
+				WHERE ( (tc.profesional_salud = tp.identificacion) 
+						and (tp.especialidad = te.codigo) 
+						and (tc.paciente=1) 
+					) ORDER BY Fecha DESC")
+(2018-01-15 04:29:08) mysqli error: [2002: php_network_getaddresses: getaddrinfo failed: Host desconocido. ] in CONNECT(reservas, '****', '****', )
+(2018-01-15 04:39:49) mysqli error: [2002: php_network_getaddresses: getaddrinfo failed: Host desconocido. ] in CONNECT(reservas, '****', '****', )
+(2018-01-15 05:37:32) mysqli error: [2002: php_network_getaddresses: getaddrinfo failed: Host desconocido. ] in CONNECT(reservas, '****', '****', )
+(2018-01-15 05:37:48) mysqli error: [2002: php_network_getaddresses: getaddrinfo failed: Host desconocido. ] in CONNECT(reservas, '****', '****', )
+(2018-01-16 23:32:00) mysqli error: [2002: php_network_getaddresses: getaddrinfo failed: Host desconocido. ] in CONNECT(reservas, '****', '****', )
+(2018-01-19 00:28:48) mysqli error: [2002: php_network_getaddresses: getaddrinfo failed: Host desconocido. ] in CONNECT(reservas, '****', '****', )
+(2018-01-20 16:24:47) mysqli error: [2002: php_network_getaddresses: getaddrinfo failed: Host desconocido. ] in CONNECT(reservas, '****', '****', )
+(2018-01-21 05:04:39) mysqli error: [2002: php_network_getaddresses: getaddrinfo failed: Host desconocido. ] in CONNECT(reservas, '****', '****', )
+(2018-01-21 05:04:41) mysqli error: [2002: php_network_getaddresses: getaddrinfo failed: Host desconocido. ] in CONNECT(reservas, '****', '****', )
+(2018-01-21 05:04:43) mysqli error: [2002: php_network_getaddresses: getaddrinfo failed: Host desconocido. ] in CONNECT(reservas, '****', '****', )
+(2018-01-21 05:48:17) mysqli error: [2002: php_network_getaddresses: getaddrinfo failed: Host desconocido. ] in CONNECT(reservas, '****', '****', )
+(2018-01-21 05:52:34) mysqli error: [2002: php_network_getaddresses: getaddrinfo failed: Host desconocido. ] in CONNECT(reservas, '****', '****', )
